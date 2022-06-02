@@ -2,13 +2,13 @@
 
 ## Data Generation
 
-IllustrisTNG data access: https://www.tng-project.org/data/
+IllustrisTNG data access (cosmology simulation): https://www.tng-project.org/data/
 
 Data specifications: https://www.tng-project.org/data/docs/specifications/
 
 Data generation notebook: https://colab.research.google.com/drive/1L58I-5zWCC9hbedW0yhg-1VZ2qCWMEPy?usp=sharing
 
-Features of halos: 
+Features of dark matter halos: 
 - **mass**: proportional to dark matter particle counts
 - **velocity dispersion**: standard derivation of velocities
 - **comoving radius** in ckpc/h
@@ -20,6 +20,12 @@ Pipeline notebook: https://colab.research.google.com/drive/15GyKvV69agKNrIueeXUu
 Use one or multiple features of halos to predict **velocity dispersion**
 
 Currently using sklearn PolynomialFeatures with Lasso regularization 
+
+Goal: - Find a proper model to use some features of halos (that are easier to get) to predict other features of halos (that are harder to generate)
+
+- Compare the predictions from different models
+
+- Visualization
 
 ## Relevant Paper
 
