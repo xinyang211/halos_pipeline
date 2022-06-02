@@ -23,7 +23,9 @@ Use one or multiple features of halos to predict **velocity dispersion**
 
 Currently using sklearn PolynomialFeatures with Lasso regularization 
 
-Goal: - Find a proper model to use some features of halos (that are easier to get) to predict other features of halos (that are harder to generate)
+Goal: 
+
+- Find a proper model to use some features of halos (that are easier to get) to predict other features of halos (that are harder to generate)
 
 - Compare the predictions from different models
 
