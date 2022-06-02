@@ -2,7 +2,7 @@
 
 ## Data Generation
 
-IllustrisTNG data access (cosmology simulation): https://www.tng-project.org/data/
+IllustrisTNG (cosmology simulation) data access: https://www.tng-project.org/data/
 
 Data specifications: https://www.tng-project.org/data/docs/specifications/
 
@@ -14,6 +14,8 @@ Features of dark matter halos:
 - **comoving radius** in ckpc/h
 - **Group_M_Crit200, Group_M_Crit500, Group_M_Mean200, Group_M_TopHat200**: total mass enclosed in a sphere
 - **Group_R_Crit200, Group_R_Crit500, Group_R_Mean200, Group_R_TopHat200**: comoving radius of a sphere
+- More to be added
+
 ## Machine Learning Pipeline
 Pipeline notebook: https://colab.research.google.com/drive/15GyKvV69agKNrIueeXUud86wk3nhfiqg?usp=sharing
 
